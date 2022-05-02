@@ -46,7 +46,6 @@ const SocialLogin = () => {
                     <span className='px-2'>Facebook Sign In</span>
                 </button>
                 <button
-                    onClick={() => signInWithGithub()}
                     className='btn btn-info w-50 d-block mx-auto'>
                     <img style={{ width: '30px' }} src={github} alt="" />
                     <span className='px-2'>Github Sign In</span>
